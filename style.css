@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.main-nav {
+    background-color: rgb(188, 193, 204);
+    font-size: 15px;
+    height: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+
+
+.book-icon {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.book-icon:hover {
+    color: black;
+    transition: 2s;
+}
+
+.link-card {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.link-card:hover {
+    color: rgb(221, 125, 0);
+    font-size: bold;
+    font-size: larger;
+    transition: 0.5s ease-in-out;
+}
+
+.selectButton {
+    width: 30%;
+    margin: 15px auto;
+}
+
+.mainTitle {
+    margin-bottom: 10px auto 10px auto;
+    color: rgb(221, 125, 0);
+}
+
+#booklist {
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+}
+
+.desc {
+    color: grey;
+    font-size: 15px;
+}
+
+.card-body {
+    max-width: 380px;
+    height: 230px;
+}
+
+/* .card-body:hover {
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+    
+} */
+
+.form-all {
+    resize: none;
+    border:none;
+    margin-top: 30px;
+}
+
+.main-form {
+    border-bottom: rgb(195, 198, 204) solid 5px;
+}
